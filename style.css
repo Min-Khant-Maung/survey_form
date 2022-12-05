@@ -26,25 +26,31 @@ body{
 }
 
 label{
-    margin: 15px;
+    margin: 20px;
 }
 
 #name,#email{
-    margin:15px;
-    padding:10px 35%;
+    margin:15px 30px 15px 20px;
+    /* padding:10px 35%; */
+    width: 90%;
+    height: 35px;
     border-radius: 5px;
     border: none;
 }
 #number{
-    margin: 15px;
-    padding: 10px 43.5%;
+    margin: 15px 30px 15px 20px;
+    /* padding: 10px 43.5%; */
+    width: 90%;
+    height: 35px;
     border-radius: 5px;
     border: none;
 }
 
 #dropdown{
-    margin: 15px;
-    padding: 10px 37.5%;
+    margin:  15px 30px 15px 20px;
+    /* padding: 10px 37.5%; */
+    width: 90%;
+    height: 35px;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -53,20 +59,25 @@ label{
     margin: 15px -12px 20px 15px;
 }
 
-#textarea{
-    margin:0px 15px;
-}
+/* #textarea{
+    margin: 0;
+    padding: 0;
+} */
 textarea{
-    width: 100%;
+    margin:  15px 30px 15px 20px;
+    width: 90%;
     height: 100px;
     border-radius: 5px;
 }
 
-#sub-button{
+/* #sub-button{
     margin: 15px;
-}
+    margin: 0;
+    padding: 0;
+} */
 #submit{
-    width: 101%;
+    margin:  15px 30px 15px 20px;
+    width: 91%;
     height: 40px;
     border-radius: 5px;
     background-color:#0d850d ;
